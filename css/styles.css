@@ -140,6 +140,13 @@ body.login-bg-black {
 
 }
 
+html, body {
+  height: auto !important;
+  overflow-x: hidden;
+  overflow-y: auto !important;
+}
+
+
 body.login-bg-black::before {
   content: "";
   position: fixed;
